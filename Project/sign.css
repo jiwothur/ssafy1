@@ -1,0 +1,16 @@
+html{
+        background-image:url("memo1.jpg");
+        background-size: auto ;
+    }
+
+h1{
+      text-align: center;
+  }
+
+.part{
+          font-size : 20px;
+          text-align: center;
+          border:20px;
+          margin: 0px;
+          padding: 20px;
+     }

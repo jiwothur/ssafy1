@@ -1,0 +1,21 @@
+html{
+      background-image:url("memo1.jpg");
+      background-size: auto ;
+    }
+
+a{
+      color : black;
+      font-size : 30px;
+      text-align: right;
+      display:grid;
+      text-decoration: none;
+}
+
+h2{
+      font-size : 40px;
+      text-align: left;
+      border:20px;
+      margin: 0px;
+      padding: 20px;
+      border-bottom:2px solid black;
+  }

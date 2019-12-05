@@ -1,0 +1,49 @@
+html{
+        background-image:url("memo1.jpg");
+        background-size: auto ;
+    }
+
+h2{
+      font-size : 40px;
+      text-align: left;
+      border:20px;
+      margin: 0px;
+      padding: 20px;
+      border-bottom:2px solid black;
+  }
+
+ul{
+      border-right: 2px solid black;
+      width:100px;
+      margin: 0px;
+      padding: 20px;
+      padding-left: 45px;
+      padding-right: 20px;
+      padding-top: 28px;
+  }
+
+.part{
+          display: grid;
+          grid-template-columns: 150px 1fr;
+     }
+
+#part1{
+          padding-left: 75px;
+          padding-top: 17px;
+      }
+
+@media(max-width:800px){
+
+    .part{
+              display: block;
+         }
+
+    ul{
+          border-right: none;
+      }
+
+    #part1{
+              padding-left: 20px;
+              padding-top: 17px;
+          }
+    }
